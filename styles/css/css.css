@@ -77,40 +77,24 @@ h5{
 
 .servicios {    
     color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex;
+    flex-wrap:nowrap;
     
     }   
-   /* ATENCION MODIFICAR MQ */
-@media (min-width: 768) {
+
+@media (max-width: 768px) {
     .servicios {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-
-
-    .servicios-1 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
-    }
-
-    .servicios-2 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
-    }
- 
-
 }
+   
 
 .servicios-1 {
     border: gainsboro 2px solid;
     background-color: var(--secundario) ;
     margin-left: 2rem;
+    margin-right: 2rem;
     
 }
 
@@ -127,6 +111,9 @@ h5{
 .servicios-2{
     border: gainsboro 2px solid;
     background-color: var(--secundario) ;
+    margin-left: 2rem;
+    margin-right: 8rem;
+   
 }
 
 .servicios-2 img{
@@ -141,6 +128,7 @@ h5{
 .servicios-3{
     border: gainsboro 2px solid;
     background-color: var(--secundario) ;
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
@@ -227,8 +215,9 @@ h5{
 }
 
 .fieldset {
+    
     margin: auto;
-    padding: 5px;
+    
 }
 
 .formularioindex {
@@ -236,49 +225,28 @@ h5{
     height: 45rem;
     background-color: var(--secundario);
     border: gainsboro 2px solid;
+    padding-right: 10px;
 }
 
 #formindex {
     margin-left: 25%;
     margin-top: 5%;
     padding:5px;
-    width: 50%;
+
     background-color:var(--secundario);
     border: rgb(12, 12, 12) 2px solid;
     
 
 }
 
-.map-responsive{
 
-    overflow:hidden;
-
-    padding-top: 10rem;
-
-    padding-bottom:56.2525%;
-
-    position:relative;
-
-    height:0;
-    
-   
-}
-
-.map-responsive iframe{
-
-    left:0;
-
-    top:0;
-
-    height:50%;
-
-    width:50%;
-
-    position:absolute;
-
-    padding-top: 2rem;
-
-    margin-left: 4rem;
+iframe {
+    max-width: 100%;
+    height: auto;
+   margin-top: 2rem;
+   margin-left: 1rem;
+   padding: 10px;
+ 
 
 }
 
