@@ -41,19 +41,28 @@ nav ul li {
 h1 {
     font-size: 4rem;
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 3rem;
     text-align: center;
     margin: 2rem 0 2rem 0;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 1rem;
+    font-weight: bold;
 
+}
+
+h4{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 footer {
@@ -408,16 +417,22 @@ iframe {
 /* Servicios */
 
 .service {
-    width: 33%;
+    width: 50%;
     margin-top: 1rem;
        
 }
 
-.contentor-servicio1{
+.contentor-servicio{
     text-align: center;
     border: 0.5rem solid gainsboro;
     background-color: var(--secundario);
+    margin: 5rem;
+    padding: 2rem;
 }
+
+
+
+
 
 
 
