@@ -1,5 +1,5 @@
-*{
-    margin: 0; 
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -7,55 +7,56 @@
 :root {
     --blanco: #a5b6c7;
     --oscuro: #7a7c94;
-    --primario:#e4e4be;
+    --primario: #e4e4be;
     --secundario: #f5aad0;
     --gris: #e4b8ef;
 
 }
 
-body{
-    font-size: 16px; /* 1rem= 10px */
+body {
+    font-size: 16px;
+    /* 1rem= 10px */
     font-family: 'Gentium Book Plus', serif;
 
 }
 
-header{
+header {
     background-color: var(--secundario);
     height: 10rem;
     padding-top: 1rem;
 }
 
 nav ul li a {
-    list-style: none; 
+    list-style: none;
     text-decoration: none;
-    
+
 }
 
 nav ul li {
     display: inline-block;
     padding: 0 2rem;
-      
+
 }
 
-h1{
+h1 {
     font-size: 4rem;
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 3rem;
     text-align: center;
     margin: 2rem 0 2rem 0;
-  }
+}
 
-h3{
+h3 {
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem;
 
 }
 
-footer{
+footer {
     background-color: var(--blanco);
     border: solid;
     text-align: center;
@@ -69,22 +70,22 @@ footer{
     color: white;
 }
 
-#carouselExampleAutoplaying{
+#carouselExampleAutoplaying {
     width: 100%
 }
 
-h5{
+h5 {
     padding-bottom: 1rem;
 }
 
 
 
-.servicios {    
+.servicios {
     color: white;
     display: flex;
-    flex-wrap:nowrap;
-    
-    }   
+    flex-wrap: nowrap;
+
+}
 
 @media (max-width: 768px) {
     .servicios {
@@ -92,82 +93,84 @@ h5{
         flex-wrap: wrap;
     }
 }
-   
+
 
 .servicios-1 {
     border: gainsboro 2px solid;
-    background-color: var(--secundario) ;
+    background-color: var(--secundario);
     margin-left: 2rem;
     margin-right: 2rem;
-    
+
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .servicios-1 {
         margin: 0;
     }
 }
 
-.servicios-1 img{
+.servicios-1 img {
     margin-left: 30px;
     padding: 10px;
-    
+
 }
 
-.servicios-1 p{
-   margin: 40px;
-   text-align: justify;
+.servicios-1 p {
+    margin: 40px;
+    text-align: justify;
 }
-.servicios-2{
+
+.servicios-2 {
     border: gainsboro 2px solid;
-    background-color: var(--secundario) ;
+    background-color: var(--secundario);
     margin-left: 2rem;
     margin-right: 8rem;
-   
+
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .servicios-2 {
         margin: 0;
         width: 100%;
     }
-    .servicios-2 img{
+
+    .servicios-2 img {
         width: 100%;
     }
 }
 
-.servicios-2 img{
-   padding: 10px;
+.servicios-2 img {
+    padding: 10px;
 }
 
-.servicios-2 p{
+.servicios-2 p {
     margin: 40px;
     text-align: justify;
- }
+}
 
-.servicios-3{
+.servicios-3 {
     border: gainsboro 2px solid;
-    background-color: var(--secundario) ;
+    background-color: var(--secundario);
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .servicios-3 {
         margin: 0;
     }
 }
 
-.servicios-3 img{
+.servicios-3 img {
     padding: 5.5px;
     margin-left: 25px;
- }
+}
 
- .servicios-3 p{
+.servicios-3 p {
     margin: 40px;
     padding-top: 5px;
     text-align: justify;
- }
+}
 
 
 .button {
@@ -186,21 +189,21 @@ h5{
 
 @media (min-width: 768px) {
     #staff {
-       flex-direction: row;
-        
+        flex-direction: row;
+
     }
 }
 
 
 #maria {
-    
-    background-color:var(--secundario);
+
+    background-color: var(--secundario);
     color: white;
     text-align: center;
     margin: 2rem;
     border: gainsboro 2px solid;
-    
-    
+
+
 }
 
 #maria img {
@@ -210,7 +213,7 @@ h5{
 
 #jose {
     width: auto;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     color: white;
     text-align: center;
     margin: 2rem;
@@ -219,12 +222,12 @@ h5{
 
 #jose img {
     padding: 1rem;
-   
+
 }
 
 #carina {
-    
-    background-color:var(--secundario);
+
+    background-color: var(--secundario);
     color: white;
     text-align: center;
     margin: 2rem;
@@ -235,15 +238,15 @@ h5{
 
 #testimonios p {
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     color: white;
     font-style: italic;
 }
 
 .fieldset {
-    
+
     margin: auto;
-    
+
 }
 
 .formularioindex {
@@ -257,11 +260,11 @@ h5{
 #formindex {
     margin-left: 25%;
     margin-top: 5%;
-    padding:5px;
+    padding: 5px;
 
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     border: rgb(12, 12, 12) 2px solid;
-    
+
 
 }
 
@@ -269,13 +272,14 @@ h5{
 iframe {
     max-width: 100%;
     height: auto;
-   margin-top: 2rem;
-   margin-left: 1rem;
-   padding: 10px;
- 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 10px;
+
 
 }
-                         /* Nosotros */
+
+/* Nosotros */
 
 .imgcentral {
     width: 100%;
@@ -286,7 +290,7 @@ iframe {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     color: white;
     width: 100%;
 }
@@ -296,35 +300,36 @@ iframe {
         flex-direction: column;
         width: 100%;
     }
-    .contentorMision img{
+
+    .contentorMision img {
         width: 100%;
         padding: 2rem;
     }
 }
 
-.contentorMision p{
+.contentorMision p {
     text-align: justify;
     margin: 2rem;
-    
+
 }
 
 .contentorVision {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     color: white;
     width: 100%;
 
 }
 
-@media (max-width:768px ) {
+@media (max-width:768px) {
     .contentorVision {
         flex-direction: column-reverse;
         width: 100%;
     }
 
-    .contentorVision img{
+    .contentorVision img {
         width: 100%;
         padding: 2rem;
     }
@@ -333,7 +338,7 @@ iframe {
 .contentorVision p {
     text-align: justify;
     margin: 2rem;
-  
+
 }
 
 .staffNosotros {
@@ -353,14 +358,15 @@ iframe {
     flex-direction: column;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     text-align: justify;
 }
 
-.staffMaria img{
+.staffMaria img {
     margin-top: 1rem;
 }
-.staffMaria p{
+
+.staffMaria p {
     margin: 2rem;
 }
 
@@ -369,41 +375,53 @@ iframe {
     flex-direction: column;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     text-align: justify;
 }
 
-.staffJose img{
+.staffJose img {
     margin-top: 1rem;
 }
 
 .staffJose p {
     margin: 2rem;
 }
-    
+
 .staffCarina {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
     text-align: justify;
 
 }
 
-.staffCarina img{
+.staffCarina img {
     margin-top: 1rem;
 }
 
-.staffCarina p{
+.staffCarina p {
     margin: 2rem;
 }
 
-         /* Servicios */
-         
+/* Servicios */
+
 .service {
-    width: 100%;
+    width: 33%;
+    margin-top: 1rem;
+       
 }
+
+.contentor-servicio1{
+    text-align: center;
+    border: 0.5rem solid gainsboro;
+    background-color: var(--secundario);
+}
+
+
+
+/* Faq */
 
 .faq {
     display: flex;
@@ -416,7 +434,7 @@ iframe {
     align-items: center;
     color: white;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
 }
 
 
@@ -425,8 +443,8 @@ iframe {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
-    
+    background-color: var(--secundario);
+
 }
 
 .faq-2 p {
@@ -437,26 +455,57 @@ iframe {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
 }
 
 .faq-4 {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
 }
 
 .faq-5 {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
 }
 
 .faq-6 {
     display: flex;
     align-items: center;
     border: gainsboro 2px solid;
-    background-color:var(--secundario);
+    background-color: var(--secundario);
 }
+
+/* Contacto */
+.formulario {
+    background-color: var(--secundario);
+    margin: 1rem auto 0 auto;
+    width: 95%;
+    padding: 2rem;
+
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--oscuro);
+}
+
+.campo__field--textarea {
+    height: 20rem;
+}
+
