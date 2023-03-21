@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     /* 1rem= 10px */
     font-family: 'Gentium Book Plus', serif;
+    background-image: linear-gradient(to left, blue, yellow);
 
 }
 
@@ -547,8 +548,19 @@ iframe {
 }
 
 /* Contacto */
+
+ 
+
+.paragraph-contacto{
+    color: white;
+    background-color: var(--secundario);
+    border: gainsboro 2px solid;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 .formulario {
     background-color: var(--secundario);
+    border: gainsboro 2px solid;
     margin: 1rem auto 0 auto;
     width: 95%;
     padding: 2rem;
