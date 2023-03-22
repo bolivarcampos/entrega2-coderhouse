@@ -1,589 +1,521 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --blanco: #a5b6c7;
-    --oscuro: #7a7c94;
-    --primario: #e4e4be;
-    --secundario: #f5aad0;
-    --gris: #e4b8ef;
-
+  --blanco: #a5b6c7;
+  --oscuro: #7a7c94;
+  --primario: #e4e4be;
+  --secundario: #f5aad0;
+  --gris: #e4b8ef;
 }
 
 body {
-    font-size: 16px;
-    /* 1rem= 10px */
-    font-family: 'Gentium Book Plus', serif;
-    background-image: linear-gradient(to left, blue, yellow);
-
-}
-
-header {
-    background-color: var(--secundario);
-    height: 10rem;
-    padding-top: 1rem;
-}
-
-nav ul li a {
-    list-style: none;
-    text-decoration: none;
-
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 0 2rem;
-
+  font-size: 16px;
+  /* 1rem= 10px */
+  font-family: "Gentium Book Plus", serif;
 }
 
 h1 {
-    font-size: 4rem;
-    text-align: center;
-    font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 h2 {
-    font-size: 3rem;
-    text-align: center;
-    margin: 2rem 0 2rem 0;
-    font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+  font-weight: bold;
 }
 
 h3 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 1rem;
-    font-weight: bold;
-
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+  font-weight: bold;
 }
 
 h4 {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav ul li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 2rem;
 }
 
 footer {
-    background-color: var(--blanco);
-    border: solid;
-    text-align: center;
+  background-color: var(--blanco);
+  border: solid;
+  text-align: center;
 }
 
-/* Home */
-
 #bienvenida {
-    text-align: center;
-    background-color: var(--secundario);
-    color: white;
+  text-align: center;
+  background-color: var(--secundario);
+  color: white;
 }
 
 #carouselExampleAutoplaying {
-    width: 100%
+  width: 100%;
 }
 
 h5 {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
-
-
 
 .servicios {
-    color: white;
-    display: flex;
-    flex-wrap: nowrap;
-
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 @media (max-width: 768px) {
-    .servicios {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .servicios {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
-
-
 .servicios-1 {
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin-left: 2rem;
-    margin-right: 2rem;
-
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
-    .servicios-1 {
-        margin: 0;
-    }
+  .servicios-1 {
+    margin: 0;
+  }
 }
-
 .servicios-1 img {
-    margin-left: 30px;
-    padding: 10px;
-
+  margin-left: 30px;
+  padding: 10px;
 }
 
 .servicios-1 p {
-    margin: 40px;
-    text-align: justify;
+  margin: 40px;
+  text-align: justify;
 }
 
 .servicios-2 {
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin-left: 2rem;
-    margin-right: 8rem;
-
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin-left: 2rem;
+  margin-right: 8rem;
 }
 
 @media (max-width: 768px) {
-    .servicios-2 {
-        margin: 0;
-        width: 100%;
-    }
-
-    .servicios-2 img {
-        width: 100%;
-    }
+  .servicios-2 {
+    margin: 0;
+    width: 100%;
+  }
+  .servicios-2 img {
+    width: 100%;
+  }
 }
-
 .servicios-2 img {
-    padding: 10px;
+  padding: 10px;
 }
 
 .servicios-2 p {
-    margin: 40px;
-    text-align: justify;
+  margin: 40px;
+  text-align: justify;
 }
 
 .servicios-3 {
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin-left: 2rem;
-    margin-right: 2rem;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
-    .servicios-3 {
-        margin: 0;
-    }
+  .servicios-3 {
+    margin: 0;
+  }
 }
-
 .servicios-3 img {
-    padding: 5.5px;
-    margin-left: 25px;
+  padding: 5.5px;
+  margin-left: 25px;
 }
 
 .servicios-3 p {
-    margin: 40px;
-    padding-top: 5px;
-    text-align: justify;
+  margin: 40px;
+  padding-top: 5px;
+  text-align: justify;
 }
 
-
 .button {
-    background-color: rgb(255, 255, 255);
-    padding: .2rem;
-    text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0.2rem;
+  text-align: center;
 }
 
 #staff {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 @media (min-width: 768px) {
-    #staff {
-        flex-direction: row;
-
-    }
+  #staff {
+    flex-direction: row;
+  }
 }
-
-
 #maria {
-
-    background-color: var(--secundario);
-    color: white;
-    text-align: center;
-    margin: 2rem;
-    border: gainsboro 2px solid;
-
-
+  background-color: var(--secundario);
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  border: gainsboro 2px solid;
 }
 
 #maria img {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #jose {
-    width: auto;
-    background-color: var(--secundario);
-    color: white;
-    text-align: center;
-    margin: 2rem;
-    border: gainsboro 2px solid;
+  width: auto;
+  background-color: var(--secundario);
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  border: gainsboro 2px solid;
 }
 
 #jose img {
-    padding: 1rem;
-
+  padding: 1rem;
 }
 
 #carina {
-
-    background-color: var(--secundario);
-    color: white;
-    text-align: center;
-    margin: 2rem;
-    padding: 1rem;
-
-    border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  border: gainsboro 2px solid;
 }
 
 #testimonios p {
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    color: white;
-    font-style: italic;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  color: white;
+  font-style: italic;
 }
 
 .fieldset {
-
-    margin: auto;
-
+  margin: auto;
 }
 
 .formularioindex {
-    width: 100%;
-    height: 45rem;
-    background-color: var(--secundario);
-    border: gainsboro 2px solid;
-    padding-right: 10px;
+  width: 100%;
+  height: 45rem;
+  background-color: var(--secundario);
+  border: gainsboro 2px solid;
+  padding-right: 10px;
 }
 
 #formindex {
-    margin-left: 25%;
-    margin-top: 5%;
-    padding: 5px;
-
-    background-color: var(--secundario);
-    border: rgb(12, 12, 12) 2px solid;
-
-
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 5px;
+  background-color: var(--secundario);
+  border: rgb(12, 12, 12) 2px solid;
 }
-
 
 iframe {
-    max-width: 100%;
-    height: auto;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    padding: 10px;
-
-
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  padding: 10px;
 }
 
-/* Nosotros */
-
 .imgcentral {
-    width: 100%;
-    height: 50%;
+  width: 100%;
+  height: 50%;
 }
 
 .contentorMision {
-    display: flex;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    color: white;
+  display: flex;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  color: white;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contentorMision {
+    flex-direction: column;
     width: 100%;
+  }
+  .contentorMision img {
+    width: 100%;
+    padding: 2rem;
+  }
 }
-
-@media (max-width:768px) {
-    .contentorMision {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .contentorMision img {
-        width: 100%;
-        padding: 2rem;
-    }
-}
-
 .contentorMision p {
-    text-align: justify;
-    margin: 2rem;
-
+  text-align: justify;
+  margin: 2rem;
 }
 
 .contentorVision {
-    display: flex;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    color: white;
+  display: flex;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  color: white;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contentorVision {
+    flex-direction: column-reverse;
     width: 100%;
-
+  }
+  .contentorVision img {
+    width: 100%;
+    padding: 2rem;
+  }
 }
-
-@media (max-width:768px) {
-    .contentorVision {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .contentorVision img {
-        width: 100%;
-        padding: 2rem;
-    }
-}
-
 .contentorVision p {
-    text-align: justify;
-    margin: 2rem;
-
+  text-align: justify;
+  margin: 2rem;
 }
 
 .staffNosotros {
-    display: flex;
-    color: white;
-
+  display: flex;
+  color: white;
 }
 
 @media (max-width: 768px) {
-    .staffNosotros {
-        flex-direction: column;
-    }
-}
-
-.staffMaria {
-    display: flex;
+  .staffNosotros {
     flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    text-align: justify;
+  }
+}
+.staffMaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  text-align: justify;
 }
 
 .staffMaria img {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .staffMaria p {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .staffJose {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  text-align: justify;
 }
 
 .staffJose img {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .staffJose p {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .staffCarina {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    text-align: justify;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  text-align: justify;
 }
 
 .staffCarina img {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .staffCarina p {
-    margin: 2rem;
+  margin: 2rem;
 }
 
-/* Servicios */
-
 .service {
-    width: 50%;
-    margin-top: 1rem;
-
+  width: 50%;
+  margin-top: 1rem;
 }
 
 .contentor-servicio {
-    text-align: center;
-    border: 0.5rem solid gainsboro;
-    background-color: var(--secundario);
-    margin: 5rem;
-    padding: 2rem;
+  text-align: center;
+  border: 0.5rem solid gainsboro;
+  background-color: var(--secundario);
+  color: white;
+  margin: 5rem;
+  padding: 2rem;
 }
 
 @media (max-width: 768px) {
-
-    .service {
-        width: 100%;
-        margin-top: 1rem;
-
-    }
-
-    .contentor-servicio {
-        text-align: center;
-        border: 0.5rem solid gainsboro;
-        background-color: var(--secundario);
-        margin: 1rem;
-        padding: 1rem;
-    }
-
+  .service {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .contentor-servicio {
+    text-align: center;
+    border: 0.5rem solid gainsboro;
+    background-color: var(--secundario);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+  }
 }
-
-/* Faq */
-
 .faq {
-       color: white;
+  color: white;
 }
 
 .faq-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
-.faq-1 p{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+.faq-1 p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .faq-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
 .faq-2 p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .faq-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
 .faq-3 p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .faq-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
 .faq-4 p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .faq-5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
 .faq-5 p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .faq-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: gainsboro 2px solid;
-    background-color: var(--secundario);
-    margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: gainsboro 2px solid;
+  background-color: var(--secundario);
+  margin: 2rem;
 }
 
 .faq-6 p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
-/* Contacto */
-
- 
-
-.paragraph-contacto{
-    color: white;
-    background-color: var(--secundario);
-    border: gainsboro 2px solid;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.paragraph-contacto {
+  color: white;
+  background-color: var(--secundario);
+  border: gainsboro 2px solid;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
+
 .formulario {
-    background-color: var(--secundario);
-    border: gainsboro 2px solid;
-    margin: 1rem auto 0 auto;
-    width: 95%;
-    padding: 2rem;
-
+  background-color: var(--secundario);
+  border: gainsboro 2px solid;
+  margin: 1rem auto 0 auto;
+  width: 95%;
+  padding: 2rem;
 }
 
 .campo {
-    display: flex;
-    margin-bottom: 2rem;
-
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 .campo__label {
-    flex: 0 0 9rem;
-    text-align: right;
-    padding-right: 2rem;
+  flex: 0 0 9rem;
+  text-align: right;
+  padding-right: 2rem;
 }
 
 .campo__field {
-    flex: 1;
-    border: 1px solid var(--oscuro);
+  flex: 1;
+  border: 1px solid var(--oscuro);
 }
 
 .campo__field--textarea {
-    height: 20rem;
+  height: 20rem;
 }
+
+body {
+  background-image: linear-gradient(to left, rgb(210, 45, 130), rgb(245, 154, 239));
+}
+
+/*# sourceMappingURL=css.css.map */

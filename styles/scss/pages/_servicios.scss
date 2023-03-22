@@ -1,0 +1,33 @@
+.service {
+    width: 50%;
+    margin-top: 1rem;
+
+}
+
+.contentor-servicio {
+    text-align: center;
+    border: 0.5rem solid gainsboro;
+    background-color: var(--secundario);
+    color: white;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .service {
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .contentor-servicio {
+        text-align: center;
+        border: 0.5rem solid gainsboro;
+        background-color: var(--secundario);
+        color: white;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
