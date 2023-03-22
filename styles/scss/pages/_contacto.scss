@@ -20,18 +20,22 @@
     display: flex;
     margin-bottom: 2rem;
 
+    &__label{
+        flex: 0 0 9rem;
+        text-align: right;
+        padding-right: 2rem;
+        
+    }
+
+    &__field {
+        flex: 1;
+        border: 1px solid var(--oscuro);
+    }
+
+
+
 }
 
-.campo__label {
-    flex: 0 0 9rem;
-    text-align: right;
-    padding-right: 2rem;
-}
-
-.campo__field {
-    flex: 1;
-    border: 1px solid var(--oscuro);
-}
 
 .campo__field--textarea {
     height: 20rem;

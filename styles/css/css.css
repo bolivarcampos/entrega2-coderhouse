@@ -13,6 +13,10 @@
 }
 
 body {
+  background-image: linear-gradient(to left, rgb(210, 45, 130), rgb(245, 154, 239));
+}
+
+body {
   font-size: 16px;
   /* 1rem= 10px */
   font-family: "Gentium Book Plus", serif;
@@ -396,7 +400,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-1 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -411,7 +414,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-2 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -426,7 +428,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-3 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -441,7 +442,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-4 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -456,7 +456,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-5 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -471,7 +470,6 @@ iframe {
   background-color: var(--secundario);
   margin: 2rem;
 }
-
 .faq-6 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -498,13 +496,11 @@ iframe {
   display: flex;
   margin-bottom: 2rem;
 }
-
 .campo__label {
   flex: 0 0 9rem;
   text-align: right;
   padding-right: 2rem;
 }
-
 .campo__field {
   flex: 1;
   border: 1px solid var(--oscuro);
@@ -512,10 +508,6 @@ iframe {
 
 .campo__field--textarea {
   height: 20rem;
-}
-
-body {
-  background-image: linear-gradient(to left, rgb(210, 45, 130), rgb(245, 154, 239));
 }
 
 /*# sourceMappingURL=css.css.map */
