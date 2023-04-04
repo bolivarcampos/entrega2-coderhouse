@@ -301,6 +301,7 @@ iframe {
 
 .staffNosotros {
   display: flex;
+  gap: 2rem;
   color: white;
 }
 
@@ -316,14 +317,25 @@ iframe {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
   text-align: justify;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .staffMaria {
+    margin: 2rem;
+  }
+}
 .staffMaria img {
   margin-top: 1rem;
 }
 
+.staffMaria h4 {
+  margin-top: 1rem;
+}
+
 .staffMaria p {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .staffJose {
@@ -333,14 +345,24 @@ iframe {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
   text-align: justify;
+  margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .staffJose {
+    margin: 2rem;
+  }
+}
 .staffJose img {
   margin-top: 1rem;
 }
 
+.staffJose h4 {
+  margin-top: 1rem;
+}
+
 .staffJose p {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .staffCarina {
@@ -350,14 +372,25 @@ iframe {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
   text-align: justify;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .staffCarina {
+    margin: 2rem;
+  }
+}
 .staffCarina img {
   margin-top: 1rem;
 }
 
+.staffCarina h4 {
+  margin-top: 1rem;
+}
+
 .staffCarina p {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .service {
