@@ -81,6 +81,7 @@ h5 {
 .servicios {
   color: white;
   display: flex;
+  gap: 2rem;
   flex-wrap: nowrap;
 }
 
@@ -94,19 +95,25 @@ h5 {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
   margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
   .servicios-1 {
-    margin: 0;
+    margin-right: 2rem;
+    width: 90%;
   }
 }
 .servicios-1 img {
   margin-left: 30px;
+  margin-right: 30px;
   padding: 10px;
 }
 
+@media (max-width: 768px) {
+  .servicios-1 img {
+    margin: 0;
+  }
+}
 .servicios-1 p {
   margin: 40px;
   text-align: justify;
@@ -115,23 +122,25 @@ h5 {
 .servicios-2 {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
-  margin-left: 2rem;
-  margin-right: 8rem;
 }
 
 @media (max-width: 768px) {
   .servicios-2 {
-    margin: 0;
-    width: 100%;
-  }
-  .servicios-2 img {
-    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 90%;
   }
 }
 .servicios-2 img {
   padding: 10px;
+  margin-left: 4rem;
 }
 
+@media (max-width: 768px) {
+  .servicios-2 img {
+    margin: 0;
+  }
+}
 .servicios-2 p {
   margin: 40px;
   text-align: justify;
@@ -140,30 +149,29 @@ h5 {
 .servicios-3 {
   border: gainsboro 2px solid;
   background-color: var(--secundario);
-  margin-left: 2rem;
   margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
   .servicios-3 {
-    margin: 0;
+    margin-left: 2rem;
+    width: 90%;
   }
 }
 .servicios-3 img {
   padding: 5.5px;
-  margin-left: 25px;
+  margin-left: 4rem;
 }
 
+@media (max-width: 768px) {
+  .servicios-3 img {
+    margin: 0;
+  }
+}
 .servicios-3 p {
   margin: 40px;
   padding-top: 5px;
   text-align: justify;
-}
-
-.button {
-  background-color: rgb(255, 255, 255);
-  padding: 0.2rem;
-  text-align: center;
 }
 
 #staff {
@@ -174,6 +182,7 @@ h5 {
 @media (min-width: 768px) {
   #staff {
     flex-direction: row;
+    gap: 2rem;
   }
 }
 #maria {
@@ -216,6 +225,11 @@ h5 {
   background-color: var(--secundario);
   color: white;
   font-style: italic;
+}
+
+#testimonios p {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .fieldset {
